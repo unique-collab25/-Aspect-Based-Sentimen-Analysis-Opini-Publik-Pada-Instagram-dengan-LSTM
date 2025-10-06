@@ -7,19 +7,18 @@ Menganalisis opini publik pada Instagram berdasarkan aspek tertentu (pembangunan
    
 ⚙️ Alur Kerja Aplikasi
 
-1). Input Data: Dataset komentar Instagram (file .csv berisi kolom: komentar, aspek, sentimen).
+Input Data: Dataset komentar Instagram (file .csv berisi kolom: komentar, aspek, sentimen).
 
-2). Preprocessing:
-    1. Pembersihan teks (hapus emoji, tanda baca, URL, dll)
-    2. Stopword removal
-    3. Tokenisasi
-    4. Padding sequence
+Preprocessing:
+1. Pembersihan teks (hapus emoji, tanda baca, URL, dll)
+2. Stopword removal
+3. Tokenisasi
+4. Padding sequence
     
-3). Model LSTM:
-    1. Embedding layer
-    2. LSTM layer
-    3. Dense output (Softmax)
+Model LSTM:
+1. Embedding layer
+2. LSTM layer
+3. Dense output (Softmax)
     
-4). Prediksi Sentimen: Model memprediksi sentimen dari teks baru berdasarkan aspek tertentu.
-
-5). Tampilan Aplikasi (streamlit): form input teks komentar, pilihan aspek, dan hasil analisis.
+Prediksi Sentimen: Model memprediksi sentimen dari teks baru berdasarkan aspek tertentu.
+Tampilan Aplikasi (streamlit): form input teks komentar, pilihan aspek, dan hasil nalisis.
